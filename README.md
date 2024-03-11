@@ -1,79 +1,77 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# News Reader App
 
-# Getting Started
+## Running the React Native Project for Android and iOS
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+Welcome to our React Native project! Follow the steps below to run the app on both Android and iOS platforms.
 
-## Step 1: Start the Metro Server
+### Prerequisites
+- Node.js installed on your machine
+- npm or Yarn package manager
+- React Native CLI
+- Android Studio (for Android development)
+- Xcode (for iOS development)
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+### Steps
 
-To start Metro, run the following command from the _root_ of your React Native project:
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/news_reader_app.git
+   ```
 
-```bash
-# using npm
-npm start
+2. **Install Dependencies:**
+   ```bash
+   cd news_reader_app
+   npm install
+   # or
+   yarn install
+   ```
 
-# OR using Yarn
-yarn start
-```
+3. **Link Dependencies (if necessary):**
+   ```bash
+   npx react-native link
+   ```
 
-## Step 2: Start your Application
+4. **For Android:**
+   - Ensure you have an Android device connected or an Android emulator running.
+   - Run the following command:
+     ```bash
+     npx react-native run-android
+     ```
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+5. **For iOS:**
+   - Ensure you have a macOS device with Xcode installed.
+   - Run the following command:
+     ```bash
+     npx react-native run-ios
+     ```
 
-### For Android
+## Functionality
 
-```bash
-# using npm
-npm run android
+The app features a user-friendly home page with two main sections:
 
-# OR using Yarn
-yarn android
-```
+### Headlines from All Categories
 
-### For iOS
+This section presents users with the latest headlines across a variety of news categories, ensuring they stay informed with the most recent updates.
 
-```bash
-# using npm
-npm run ios
+### Category Pills
 
-# OR using Yarn
-yarn ios
-```
+Located just below the headlines, this interactive segment contains pills representing different news categories. Users can effortlessly select a category of interest, and the headline list will dynamically update to reflect their choice.
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+### App Screenshots
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+![Screenshot 1](screenshots/screenshot1.png)
+![Screenshot 2](screenshots/screenshot2.png)
 
-## Step 3: Modifying your App
+### Design Inspiration
+![inspiration](screenshots/inspiration.png)
 
-Now that you have successfully run the app, let's modify it.
+I acknowledge and appreciate the creativity of designers on Dribbble.
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+### Environment File
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+Please make sure to add an `.env` file in the root folder of the project. This file should contain necessary environment variables, particularly for APIs to function properly.
 
-## Congratulations! :tada:
+That's it! You should now have the React Native app up and running on both Android and iOS platforms. Happy coding! 🚀
 
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+### Design Inspiration
+- @syedhaider03
