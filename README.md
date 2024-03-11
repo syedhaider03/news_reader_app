@@ -2,7 +2,7 @@
 
 ## Running the React Native Project for Android and iOS
 
-Welcome to our React Native project! Follow the steps below to run the app on both Android and iOS platforms.
+Welcome to my React Native project! Follow the steps below to run the app on both Android and iOS platforms.
 
 ### Prerequisites
 
