@@ -77,8 +77,6 @@ I acknowledge and appreciate the creativity of designers on Dribbble.
 
 Please make sure to add an `.env` file in the root folder of the project. This file should contain necessary environment variables, particularly for APIs to function properly.
 
-That's it! You should now have the React Native app up and running on both Android and iOS platforms. Happy coding! 🚀
-
-### Design Inspiration
+### Author
 
 - @syedhaider03
