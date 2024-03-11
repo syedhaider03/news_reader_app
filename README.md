@@ -5,6 +5,7 @@
 Welcome to our React Native project! Follow the steps below to run the app on both Android and iOS platforms.
 
 ### Prerequisites
+
 - Node.js installed on your machine
 - npm or Yarn package manager
 - React Native CLI
@@ -14,11 +15,13 @@ Welcome to our React Native project! Follow the steps below to run the app on bo
 ### Steps
 
 1. **Clone the Repository:**
+
    ```bash
    git clone https://github.com/your-username/news_reader_app.git
    ```
 
 2. **Install Dependencies:**
+
    ```bash
    cd news_reader_app
    npm install
@@ -27,11 +30,13 @@ Welcome to our React Native project! Follow the steps below to run the app on bo
    ```
 
 3. **Link Dependencies (if necessary):**
+
    ```bash
    npx react-native link
    ```
 
 4. **For Android:**
+
    - Ensure you have an Android device connected or an Android emulator running.
    - Run the following command:
      ```bash
@@ -59,10 +64,11 @@ Located just below the headlines, this interactive segment contains pills repres
 
 ### App Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
+<img src="screenshots/screenshot1.png" alt="Screenshot 1" width="220"/>
+<img src="screenshots/screenshot2.png" alt="Screenshot 2" width="220"/>
 
 ### Design Inspiration
+
 ![inspiration](screenshots/inspiration.png)
 
 I acknowledge and appreciate the creativity of designers on Dribbble.
@@ -74,4 +80,5 @@ Please make sure to add an `.env` file in the root folder of the project. This f
 That's it! You should now have the React Native app up and running on both Android and iOS platforms. Happy coding! 🚀
 
 ### Design Inspiration
+
 - @syedhaider03
