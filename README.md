@@ -17,7 +17,7 @@ Welcome to my React Native project! Follow the steps below to run the app on bot
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/news_reader_app.git
+   git clone https://github.com/syedhaider03/news_reader_app.git
    ```
 
 2. **Install Dependencies:**
@@ -29,13 +29,7 @@ Welcome to my React Native project! Follow the steps below to run the app on bot
    yarn install
    ```
 
-3. **Link Dependencies (if necessary):**
-
-   ```bash
-   npx react-native link
-   ```
-
-4. **For Android:**
+3. **For Android:**
 
    - Ensure you have an Android device connected or an Android emulator running.
    - Run the following command:
@@ -43,7 +37,7 @@ Welcome to my React Native project! Follow the steps below to run the app on bot
      npx react-native run-android
      ```
 
-5. **For iOS:**
+4. **For iOS:**
    - Ensure you have a macOS device with Xcode installed.
    - Run the following command:
      ```bash
@@ -64,8 +58,8 @@ Located just below the headlines, this interactive segment contains pills repres
 
 ### App Screenshots
 
-<img src="screenshots/screenshot1.png" alt="Screenshot 1" width="220"/>
 <img src="screenshots/screenshot2.png" alt="Screenshot 2" width="220"/>
+<img src="screenshots/screenshot1.png" alt="Screenshot 1" width="220"/>
 
 ### Design Inspiration
 
